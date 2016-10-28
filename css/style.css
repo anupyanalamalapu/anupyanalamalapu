@@ -1,0 +1,128 @@
+body {
+	        background-image:
+	        	 url("../City.jpeg");
+	        background-repeat: no-repeat;
+	        background-size:cover;
+}  
+.links
+{
+	font-size: 18px; 
+	background-color: white;
+}
+
+#swag
+{
+	background-color: red;
+}
+.debug
+{
+	border:1px solid red;
+}
+
+.left
+{
+	text-align: left;
+
+}
+
+.right
+{
+	text-align: right;
+}
+
+.logo
+{
+	margin-left:10px;
+}
+
+.marginleft
+{
+	margin-left:30px;
+}
+
+.marginright
+{
+	margin-right:30px;
+}
+
+.marginbottom
+{
+	margin-bottom: 500px;
+}
+
+.marginbottomcontact
+{
+	margin-bottom: 150px;
+}
+
+.marginbottomicons
+{
+	margin-bottom: 100px;
+}
+
+.imagerow
+{
+	margin-top:25px;
+}
+
+.center
+{
+	text-align: center;
+}
+
+.words
+{
+	color:white;
+}
+
+.positioning
+{
+    float: right;
+}
+
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
+h2 { 
+	font: bold 2em monospace;
+  	color: white;
+	border-right: .1em solid black;
+	width: calc(0.55em * 14); 
+	width: 14ch;
+	white-space: nowrap;
+	overflow: hidden;
+/*	-webkit-animation-delay: 2s;*/
+	-webkit-animation: typing 4s steps(14, end),
+	           blink-caret .5s step-end infinite alternate;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.picture {
+    border: 5px solid white;
+}
+
+.nav > li > a:hover {
+	text-decoration: underline;
+
+}
+
+.FONT15 {
+	font-family: Josefin Sans;
+	font-size: 15px; 
+	color: white;
+}
+
+.FONT20 {
+	font-family: Josefin Sans;
+	font-size: 20px; 
+	color: white;
+}
+
+.FONT25 {
+	font-family: Josefin Sans;
+	font-size: 25px; 
+	color: white;
+}
