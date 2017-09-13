@@ -6,10 +6,6 @@
 	margin-top:1em;
 }
 
-.header {
-	width: 103%;
-}
-
 .paddingright {
 	padding-right: 9%;
 }
@@ -27,11 +23,16 @@
 
 .current-tab a {
 	color: white;
+	font-weight: 500;
+}
+
+.header {
+	width: 103%;
 }
 
 .CSpicture {
 	width: 70%;
-	border: 20px solid black;
+	border: 20px solid #B4ACAC;
 }
 
 h1 {
