@@ -1,7 +1,14 @@
 .all_icons {
-	width:60%;
-	margin-left:20%;
-	margin-top:5%;
+    height: 10%;
+    margin-left: 20%;
+}
+
+.hover a:hover {
+	text-decoration: none;
+}
+
+.hover a:hover h2{
+	opacity: 0;
 }
 
 .bounce:hover {
@@ -21,7 +28,7 @@
 
 .social {
 	margin-left: 3.8%;
-	margin-top: 10%;
+	margin-top: 6%;
 }
 
 .pinkBox {
@@ -40,11 +47,38 @@
 	margin-top:15%;
 	display: block;
 	overflow: hidden;
+	background-image: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 1)
+    ),url("../pictures/MainDance.jpg");
+	background-size: cover;
 }
 
-.pinkBoxPicture img {
-	width: 100%;
-	height: auto;
+.pinkBoxPicture:hover {
+	width:300px;
+	height:165px;
+	border:5px solid #DFB5B5;
+	margin-left: -29%;
+	margin-top:15%;
+	display: block;
+	overflow: hidden;
+	background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),url("../pictures/MainDance.jpg");
+	background-size: cover;
+}
+
+.pinkBoxPicture h2 {
+	font-size: 80px;
+	text-align: center;
+	color: #DFB5B5;
+	margin-top:31%;
+}
+
+.pinkBoxPicture a {
+	text-decoration: none;
 }
 
 .goldBox {
@@ -64,12 +98,34 @@
 	margin-top:15%;
 	display: block;
 	overflow: hidden; 
+	background-image: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 1)
+    ),url("../pictures/Main CS.jpg");
+	background-size: cover;
 }
 
-.goldBoxPicture img {
-	width: 100%;
-	height: auto;
-	margin-top:-5%;
+.goldBoxPicture:hover {
+	width:300px;
+	height:166px;
+	border:5px solid #D7B987;
+	margin-left: -29%;
+	margin-top:15%;
+	display: block;
+	overflow: hidden; 
+	background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),url("../pictures/Main CS.jpg");
+	background-size: cover;
+}
+
+.goldBoxPicture h2 {
+	font-size: 80px;
+	text-align: center;
+	color: #D7B987;
+	margin-top:31%;
 }
 
 .silverBox {
@@ -89,12 +145,34 @@
 	margin-top:15%;
 	display: block;
 	overflow: hidden; 
+	background-image: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 1)
+    ),url("../pictures/Main Music.jpg");
+	background-size: cover;
 }
 
-.silverBoxPicture img {
-	width: 100%;
-	height: auto;
-	margin-top:-5%;
+.silverBoxPicture:hover {
+	width:300px;
+	height:166px;
+	border:5px solid #B4ACAC;
+	margin-left: -29%;
+	margin-top:15%;
+	display: block;
+	overflow: hidden; 
+	background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),url("../pictures/Main Music.jpg");
+	background-size: cover;
+}
+
+.silverBoxPicture h2 {
+	font-size: 80px;
+	text-align: center;
+	color: #B4ACAC;
+	margin-top:31%;
 }
 
 .pulse:hover {
