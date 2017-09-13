@@ -25,13 +25,9 @@
 	color: black;
 }
 
-.gold-box {
-	background-color: #D7B987;
-	width: 40%;
-	margin: 5%;
-	padding: 2%;
-	height: 40%;
-	color: white;
+.CSpicture {
+	width: 70%;
+	border: 20px solid #D7B987;
 }
 
 h1 {
