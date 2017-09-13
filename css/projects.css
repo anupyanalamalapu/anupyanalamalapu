@@ -25,13 +25,13 @@
 	color: black;
 }
 
-.gold-box-right {
+.gold-box {
 	background-color: #D7B987;
 	width: 100%;
 	margin-bottom: 3%;
 	padding: 2%;
+	height: 55%;
 	color: white;
-	height: 50%;
 	text-align: center;
 }
 
