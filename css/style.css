@@ -1,128 +1,117 @@
-body {
-	        background-image:
-	        	 url("../City.jpeg");
-	        background-repeat: no-repeat;
-	        background-size:cover;
-}  
-.links
-{
-	font-size: 18px; 
-	background-color: white;
+.all_icons {
+	width:60%;
+	margin-left:20%;
+	margin-top:5%;
 }
 
-#swag
-{
-	background-color: red;
-}
-.debug
-{
-	border:1px solid red;
-}
-
-.left
-{
-	text-align: left;
-
-}
-
-.right
-{
-	text-align: right;
-}
-
-.logo
-{
-	margin-left:10px;
-}
-
-.marginleft
-{
-	margin-left:30px;
-}
-
-.marginright
-{
-	margin-right:30px;
-}
-
-.marginbottom
-{
-	margin-bottom: 500px;
-}
-
-.marginbottomcontact
-{
-	margin-bottom: 150px;
-}
-
-.marginbottomicons
-{
-	margin-bottom: 100px;
-}
-
-.imagerow
-{
-	margin-top:25px;
-}
-
-.center
-{
+.centerText {
 	text-align: center;
 }
 
-.words
-{
-	color:white;
+.pinkBox {
+	width:200px;
+	height:235px;
+	border:5px solid #DFB5B5;
+	margin-left:50%;
+	margin-top:18%;
 }
 
-.positioning
-{
-    float: right;
-}
-
-@-webkit-keyframes typing { from { width: 0; } }
-@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
-
-h2 { 
-	font: bold 2em monospace;
-  	color: white;
-	border-right: .1em solid black;
-	width: calc(0.55em * 14); 
-	width: 14ch;
-	white-space: nowrap;
+.pinkBoxPicture {
+	width:300px;
+	height:165px;
+	border:5px solid #DFB5B5;
+	margin-left: -29%;
+	margin-top:15%;
+	display: block;
 	overflow: hidden;
-/*	-webkit-animation-delay: 2s;*/
-	-webkit-animation: typing 4s steps(14, end),
-	           blink-caret .5s step-end infinite alternate;
 }
 
-.img-circle {
-    border-radius: 50%;
+.pinkBoxPicture img {
+	width: 100%;
+	height: auto;
+} 
+
+.goldBox {
+	width:200px;
+	height:235px;
+	border:5px solid #D7B987;
+	text-align:center;
+	margin-left:28%;
+	margin-top:18%;
 }
 
-.picture {
-    border: 5px solid white;
+.goldBoxPicture {
+	width:300px;
+	height:166px;
+	border:5px solid #D7B987;
+	margin-left: -29%;
+	margin-top:15%;
+	display: block;
+	overflow: hidden; 
 }
 
-.nav > li > a:hover {
-	text-decoration: underline;
-
+.goldBoxPicture img {
+	width: 100%;
+	height: auto;
+	margin-top:-5%;
 }
 
-.FONT15 {
-	font-family: Josefin Sans;
-	font-size: 15px; 
-	color: white;
+.silverBox {
+	width:200px;
+	height:235px;
+	border:5px solid #B4ACAC;
+	text-align:center;
+	margin-left:7%;
+	margin-top:18%;
 }
 
-.FONT20 {
-	font-family: Josefin Sans;
-	font-size: 20px; 
-	color: white;
+.silverBoxPicture {
+	width:300px;
+	height:166px;
+	border:5px solid #B4ACAC;
+	margin-left: -29%;
+	margin-top:15%;
+	display: block;
+	overflow: hidden; 
 }
 
-.FONT25 {
-	font-family: Josefin Sans;
-	font-size: 25px; 
-	color: white;
+.silverBoxPicture img {
+	width: 100%;
+	height: auto;
+	margin-top:-5%;
+} 
+
+.pushTextDown1em {
+	margin-top:1em;
+}
+
+.pushTextDown2em {
+	margin-top:2em;
+}
+
+.takeTextUp {
+	margin-top:-0.1em;
+}
+
+hr {
+	border: 1px solid #DFB5B5;
+	width: 95%;
+}
+
+h1 {
+	font-family:"Avenir";
+	font-size:40px;
+	font-weight:300;
+}
+
+h2 {
+	font-family:"Avenir";
+	font-size:20px;
+	font-weight:300;
+}
+
+p {
+	font-family:"Avenir";
+	font-size: 20px;
+	font-weight:300;
 }
