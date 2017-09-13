@@ -4,8 +4,24 @@
 	margin-top:5%;
 }
 
+.bounce:hover {
+	position: relative;
+  -webkit-animation:bounce 1s infinite;
+}
+
+@-webkit-keyframes bounce {
+  0%       { bottom:5px; }
+  50%      { bottom:9px; }
+  100%     {bottom:0;}
+}
+
 .centerText {
 	text-align: center;
+}
+
+.social {
+	margin-left: 3.8%;
+	margin-top: 10%;
 }
 
 .pinkBox {
@@ -13,7 +29,7 @@
 	height:235px;
 	border:5px solid #DFB5B5;
 	margin-left:50%;
-	margin-top:18%;
+	margin-top: 18%;
 }
 
 .pinkBoxPicture {
@@ -29,7 +45,7 @@
 .pinkBoxPicture img {
 	width: 100%;
 	height: auto;
-} 
+}
 
 .goldBox {
 	width:200px;
@@ -79,7 +95,41 @@
 	width: 100%;
 	height: auto;
 	margin-top:-5%;
-} 
+}
+
+.pulse:hover {
+  display: block;
+  background: white;
+  cursor: pointer;
+  box-shadow: 0 0 0 rgba(180,172,172, 0.4);
+  animation: pulse 1.5s infinite;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(180,172,172, 0.4);
+  }
+  90% {
+      -webkit-box-shadow: 0 0 0 30px rgba(180,172,172, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(180,172,172, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(180,172,172, 0.4);
+    box-shadow: 0 0 0 0 rgba(180,172,172, 0.4);
+  }
+  90% {
+      -moz-box-shadow: 0 0 0 30px rgba(180,172,172, 0);
+      box-shadow: 0 0 0 30px rgba(180,172,172, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(180,172,172, 0);
+      box-shadow: 0 0 0 0 rgba(180,172,172, 0);
+  }
+}
 
 .pushTextDown1em {
 	margin-top:1em;
