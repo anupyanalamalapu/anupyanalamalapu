@@ -35,6 +35,10 @@
 	border: 20px solid #B4ACAC;
 }
 
+.nachde {
+	margin: 0 2% 1.5% 2%;
+}
+
 h1 {
 	font-family:"Avenir";
 	font-size:40px;
@@ -57,7 +61,7 @@ ul {
     width: 100%;
     padding: 1%;
     overflow: hidden;
-    background-color: black;
+    background-color: #180608;
     text-align: center;
     font-family: 'AvenirLTStd-Light';
     font-size: 18px;
@@ -77,4 +81,9 @@ li a {
 li a:hover {
     color: gray;
     text-decoration: none;
+}
+
+iframe {
+	margin-bottom: 2%;
+	opacity: 0.8;
 }
